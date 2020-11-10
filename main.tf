@@ -10,9 +10,9 @@ locals {
   tags = {
     ResourceOwner = var.email
     Name          = var.name
-    BusinessUnit  = "HPE-TERRAFORM"
+    BusinessUnit  = "HPE-TERRAFORM-LAB"
     EndDate       = formatdate("YYYY-MMM-DD", timeadd(timestamp(), "12h"))
-    Lab           = "Lab U"
+    Lab           = "Lab 3"
     Module        = "3"
   }
 }
